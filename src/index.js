@@ -90,6 +90,7 @@ form.addEventListener('submit', (e) => {
 
 const nameInput = form.querySelector('input[name="name"]');
 const imgInput = form.querySelector('input[name="image"]');
+const likeCount = form.querySelector('input[name=""]');
 
 console.log(imgInput.value)
 
@@ -98,6 +99,7 @@ console.log(imgInput.value)
 const toyData = {
   name: nameInput.value,
   image: imgInput.value,
+  likes: likesCount.value
   id: 0
 }
 
